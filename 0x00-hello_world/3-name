@@ -1,13 +1,14 @@
 
 #!/bin/bash
 #include <stdio.h>
-#include <unistd.h>
 /**
-* Wrire programming is like building a multilingual puzzle
-*Return: Always 0 (success)
+* main -main function
+*
+* Return: end program
 */
 int main(void)
 {
-puts("\"programming is like building a multilingual puzzle");
-return (0);
+char n[] = "and that piece of art is useful\" -Dora Korpar, 2015-10-19";
+fprintf(stderr, "%s\n", n);
+return (1);
 }
