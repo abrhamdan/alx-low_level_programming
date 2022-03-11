@@ -1,6 +1,6 @@
 /*
  * File: 1-last_digit.c
- * Auth: Brennan D Baraban
+ * Auth: Abrham H Daniel
  */
 #include <stdlib.h>
 #include <time.h>
