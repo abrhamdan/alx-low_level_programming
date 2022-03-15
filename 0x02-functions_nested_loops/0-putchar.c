@@ -1,16 +1,9 @@
 #include "main.h"
 /**
- * main - Entry point
- * Return: Always (Success)
+ * Prints _putchar, followed by a new line.
  */
 int main(void)
 {
-	char *ch = "_putchar";
-	while (*ch)
-	{
-		_putchar(*ch);
-		ch++;
-	}
-	_putchar('\n');
+	printf("_putchar");
 	return (0);
 }
